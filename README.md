@@ -19,10 +19,10 @@ To create a new app using this template, follow this checklist:
   ```bash
   git remote remove origin
   ```
-- [ ] Update `.env.development.local` - Replace `triViteApp` with your new app name in:
+- [ ] Update `.env.development.local` - Replace `myTririgaApp` with your new app name in:
   - `REACT_APP_MODEL_AND_VIEW=your-new-app-name`
   - `REACT_APP_EXPOSED_NAME=your-new-app-name`
-- [ ] Update `vite.config.js` - Replace `triViteApp` with your new app name in:
+- [ ] Update `vite.config.js` - Replace `myTririgaApp` with your new app name in:
   - `REACT_APP_MODEL_AND_VIEW` (line 24)
   - `REACT_APP_EXPOSED_NAME` (line 25)
 - [ ] Update credentials in both files:
@@ -51,8 +51,8 @@ Open the "./vite.config.js" file and update these settings to match your environ
         "REACT_APP_TRIRIGA_URL": "http://localhost:9080",
         "REACT_APP_TRIRIGA_DEPLOY_URL": "http://localhost:9080",
         "REACT_APP_CONTEXT_PATH": "/",
-        "REACT_APP_MODEL_AND_VIEW": "triViteApp",
-        "REACT_APP_EXPOSED_NAME": "triViteApp",
+        "REACT_APP_MODEL_AND_VIEW": "myTririgaApp",
+        "REACT_APP_EXPOSED_NAME": "myTririgaApp",
         "REACT_APP_TRIRIGA_OAUTH_PROFILE_NAME": "",
         "REACT_APP_SSO": "false",
         "TRIRIGA_USER": "system",
