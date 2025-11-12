@@ -30,6 +30,7 @@ To create a new app using this template, follow this checklist:
   - `vite.config.js`: `TRIRIGA_USER` and `TRIRIGA_PASSWORD`
 - [ ] Install dependencies
   ```bash
+  nvm use 22.14.00
   npm install
   ```
 - [ ] (Optional) Push to your new repository
